@@ -3,8 +3,7 @@ import asyncio
 from discord.ext import commands
 from discord.ext.commands import Bot
 
-prefix = ("J")
-
+prefix = ("?")
 client = Bot(prefix)
 
 @client.command()
@@ -18,4 +17,4 @@ async def donate():
    await client.say("Donations Are Disabled!")
 
 
-client.run("NDY5MjYzMjQwMDAyNzk3NTkw.D0ZmSg.oLpee2XRENyijvL0ZV4pTdP-E4o")
+client.run("YOUR_BOT_TOKEN_GOSE_HERE")
